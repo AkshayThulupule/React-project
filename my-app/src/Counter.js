@@ -11,7 +11,6 @@ const Counter = () => {
         <input onChange = {(e)=> setInputValue(e.target.value)}/>
         <div>{counter}</div>
         <div>{inputValue}</div>
-        test
         </>
     )
 }
